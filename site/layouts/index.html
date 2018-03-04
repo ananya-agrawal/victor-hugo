@@ -1,4 +1,12 @@
 {{ partial "header" . }}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <div class="home">
 </div>
 <div class="banner">
@@ -15,10 +23,38 @@
 <div class="optimize">
 	<h1>A Complete Website's Optimization Tool</h1>
 	<h2>We optimise the content (HTML, images, CSS, JS, fonts) of the website based on the following factors:</h2>
+	<div class="row">
+		<blockquote>
+			<div class="col-sm-4">
+				<h1>BROWSER</h1>
+				<strong>Different browsers handle content<br>
+					differently. Dexecure speeds up your<br>
+					website by leveraging the latest features<br>
+				in every browser.</strong>
+			</div>
+			<div class="col-sm-4">
+				<h1>DEVICE</h1>
+				<strong>Dexecure automatically generates images<br>
+					and CSS for different devices. You never<br>
+					have to think about saving images in a<br>
+					number of different sizes ever again.
+				</strong>
+			</div>
+			<div class="col-sm-4">
+				<h1>LOCATION</h1>
+				<strong>Our multicloud service stands on top of<br>
+					the best Content Delivery Network (CDN)<br>
+				in the market.</strong>
+			</div>
+		</blockquote>
+	</div>
 </div>
 <div class="integration">
-	<h1>Easy Integration</h1>
-	<h2>We’ve worked hard to make sure you don't spend more than a few minutes on the<br>
-	implementation process. You can choose between a simple plugin, a line of JavaScript<br>code or in case of a larger and complex website a custom-made solution.</h2>
-</div>
-{{ partial "footer" . }}
+	<blockquote>
+		<h1>Easy Integration</h1>
+		<h2>We’ve worked hard to make sure you don't spend more than a few minutes on the<br>
+			implementation process. You can choose between a simple plugin, a line of JavaScript<br>code or in case of a larger and complex website a custom-made solution.</h2>
+		</blockquote>
+	</div>
+
+	{{ partial "footer" . }}
