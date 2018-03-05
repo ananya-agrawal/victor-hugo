@@ -1,103 +1,143 @@
 /*
   You can use import statements to include partials:
- */
-@import "imports/reset.css";
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+  */
+  @import "imports/reset.css";
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 /*
   Or add your statements here:
- */
-body{
-  font-family: 'Montserrat', sans-serif;
-}
+  */
+  html,body
+  {
+  	width: 100%;
+  	height: 100%;
+  	margin: 0px;
+  	padding: 0px;
+  	font-family: 'Montserrat';
+    overflow-x: hidden;
+  }
 
-h1
-{
-	color: #173C59; 
-}
+  h1
+  {
+  	color: #173C59; 
+  }
 
-h2
-{
-	color: #989A9B;
-}
-.home
-{
-	background-image: url("../home_page.jpg");
-	width: 1366px;
-	height: 768px;
-}
+  h2
+  {
+  	color: #989A9B;
+  }
+  .home
+  {
+  	/*background-image: url("../home_page.jpg");*/
+  	width: 100%;
+  	height: auto;
+  }
 
-.banner
-{
-	text-align: center;
-	width: 100%;
-	height: auto;
-	padding-bottom: 10px;
-	color: white;
-	background-color: #1F5080;
-	margin-top: -22px;
-}
+  .banner
+  {
+  	text-align: center;
 
-.banner h1
-{
-	padding-top: 50px;
-	color: white !important;
-}
+  	height: auto;
+  	padding-bottom: 10px;
+  	color: white;
+  	background-color: #1F5080;
+  	margin-top: -22px;
+  }
 
-.speed h1,h2
-{
-	text-align: center;
-	line-height: 1.0em;
-}
+  .banner h1
+  {
+  	padding-top: 50px;
+  	color: white !important;
+  }
 
-.performance
-{
-	background-color: #F6F8FC;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-.performance h2
-{
-	color: #989A9B !important;
-}
-.performance h1,h2
-{
-	text-align: center;
-	line-height: 1.0em;
-}
+  .speed h1,h2
+  {
+  	text-align: center;
+  	line-height: 1.0em;
+  }
 
-.optimize
-{
-	background-image: url("../op.jpg");
-	padding-top: 10px;
-	text-align: center;
-	margin-top: -22px;
-	width: 100%;
-	height: auto;
-}
+  .performance
+  {
+  	background-color: #F6F8FC;
+  	padding-top: 30px;
+  	padding-bottom: 30px;
+  }
+  .performance h2
+  {
+  	color: #989A9B !important;
+  }
+  .performance h1,h2
+  {
+  	text-align: center;
+  	line-height: 1.0em;
+  }
 
-.optimize h1,h2
-{
-	color: white !important;
-}
+  .optimize
+  {
+  	background-image: url("../op.jpg");
+    padding-top: 10px;
+    text-align: center;
+    margin-top: -22px;
+    width: 100%;
+    padding-bottom: 75px;
+    height: auto;
 
-.integration
-{
-	text-align: center;
-	background-image: url("../integration_back.jpg");
-	margin-top: -22px;
-	padding-top: 50px;
-	font-weight: 600;
-	width: 100%;
-	height:auto;
-}
+  }
 
-.integration h2
-{
-	color: #989A9B !important;
-	line-height: 1.0em;
-}
+  .optimize h1,h2
+  {
+  	color: white !important;
+  }
 
-.row strong
-{
-	color: white;
-}
+  .integration
+  {
+  	text-align: center;
+  	background-image: url("../integration_back.jpg");
+    background-size: cover;
+    margin-top: -22px;
+    padding-top: 50px;
+    font-weight: 600;
+    width: 100%;
+    height:auto;
+  }
+
+  .integration h2
+  {
+  	color: #989A9B !important;
+  	line-height: 1.0em;
+  }
+
+  .row strong
+  {
+  	color: white;
+    padding-bottom: 20px;
+  }
+
+  .teamie
+  {
+   text-align: center;
+   padding-top: 75px;
+   padding-bottom: 75px;
+ }
+ .teamie h1
+ {
+   font-size: 50px;
+   line-height: 0.8em;
+ }
+
+ .teamie h3
+ {
+   font-size: 25px;
+   line-height: 0.8em;
+ }
+
+ .teamie h4
+ {
+ 	color: #989A9B !important;
+   line-height: 1.3em;
+   font-size: 18px;
+   font-weight: 600;
+ }
+
+
+
+
